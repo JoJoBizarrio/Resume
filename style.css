@@ -1,29 +1,4 @@
-.resume {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: relative;
-    width: 594px;
-    height: 842px;
-
-    background: rgb(238, 82, 82)
-}
-
-.aside {
-    min-width: 176px;
-    min-height: 842px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background-color: lightgreen;
-}
-
-.left-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+#left-container {
     padding: 24px;
     gap: 16px;
 
@@ -35,38 +10,12 @@
     background-color: lightskyblue;
 }
 
-.mainHeader {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 132px;
-    height: 76px;
-
-    background-color: lightcyan;
-}
-
-.myImage {
+.avatar {
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
     border-radius: 100px;
-}
-
-.myName {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    padding: 0px;
-    gap: 12px;
-
-    width: 140px;
-    height: 20px;
+    border: red;
 }
 
 .title {
@@ -93,49 +42,7 @@
     color: #47516B;
 }
 
-.description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 2px;
-
-    width: 132px;
-    height: 60px;
-}
-
-.divider {
-    width: 132px;
-    height: 0.5px;
-    align-self: stretch;
-}
-
-.infoBlock {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
-    width: 132px;
-    height: 121px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-
-    width: 132px;
-    height: 19px;
-}
-
 .subtitle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 2px;
 
@@ -157,10 +64,8 @@
 }
 
 .subtitle2 {
-    width: 108px;
-    height: 9px;
 
-    font-family: 'DM Sans';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 7px;
@@ -168,12 +73,12 @@
     color: #47516B;
 }
 
-.right-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 32px 24px 32px 16px;
+.table {
+    gap: 10px;
+}
 
+#right-container {
+    padding: 32px 24px 32px 16px;
     width: 418px;
     height: 842px;
     background-color: lightpink;
