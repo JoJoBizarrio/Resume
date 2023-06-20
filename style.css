@@ -54,7 +54,7 @@
     width: 108px;
     height: 8px;
 
-    font-family: 'DM Sans';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     font-style: normal;
     font-weight: 400;
     font-size: 6px;
@@ -64,8 +64,7 @@
 }
 
 .subtitle2 {
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     font-style: normal;
     font-weight: 500;
     font-size: 7px;
@@ -74,7 +73,7 @@
 }
 
 .table {
-    gap: 10px;
+    
 }
 
 #right-container {
