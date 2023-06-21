@@ -1,13 +1,16 @@
 #left-container {
+    position: relative;
+    float: left;
     padding: 24px;
-    gap: 16px;
-
-    position: absolute;
-    width: 180px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
+    width: 30%;
     background-color: lightskyblue;
+}
+
+#right-container {
+    position: relative;
+    float: right;
+    padding: 32px 24px 32px 16px;
+    background-color: lightpink;
 }
 
 .avatar {
@@ -76,9 +79,3 @@
     
 }
 
-#right-container {
-    padding: 32px 24px 32px 16px;
-    width: 418px;
-    height: 842px;
-    background-color: lightpink;
-}
