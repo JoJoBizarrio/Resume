@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
 
 #left-container {
     position: relative;
     float: left;
     padding: 24px;
-    width: 20%;
     background-color: lightskyblue;
 }
 
@@ -26,8 +25,8 @@
 
 .title {
     font-family: 'Outfit';
-    font-style: normal;
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 20px;
 
@@ -37,31 +36,9 @@
     color: #2E2E48;
 }
 
-.text {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 12px;
-
-    letter-spacing: 0.02em;
-    color: #47516B;
-}
-
-.subtitle {
-    font-family: 'Outfit';
-    padding: 0px;
-    gap: 2px;
-
-    width: 108px;
-    height: 19px;
-}
-
 .subtitle1 {
-    width: 108px;
-    height: 8px;
 
-    font-family: 'Outfit';
+    font-family: 'DM Sans';
     font-weight: 400;
     font-size: 6px;
     line-height: 8px;
@@ -69,12 +46,31 @@
     color: #79819A;
 }
 
-.subtitle2 { 
-    font-family: 'Outfit';
+.subtitle2 {
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 7px;
     line-height: 9px;
     color: #47516B;
 }
 
+.text {
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #47516B;
+}
+
 .table {}
+
+.infoImg {
+    height: 10px;
+    width: 10px;
+    left: 3px;
+    top: 3px;
+    border-radius: 0px;
+
+}
