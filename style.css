@@ -25,13 +25,7 @@
 
 .title {
     font-family: 'Outfit';
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-
-    display: flex;
-    align-items: center;
+    font-weight: 700;
     letter-spacing: -0.02em;
     color: #2E2E48;
 }
@@ -40,8 +34,6 @@
 
     font-family: 'DM Sans';
     font-weight: 400;
-    font-size: 6px;
-    line-height: 8px;
     letter-spacing: 0.01em;
     color: #79819A;
 }
@@ -49,7 +41,6 @@
 .subtitle2 {
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 7px;
     line-height: 9px;
     color: #47516B;
 }
@@ -58,8 +49,6 @@
     font-family: 'Outfit';
     font-weight: 500;
     font-style: normal;
-    font-size: 9px;
-    line-height: 12px;
     letter-spacing: 0.02em;
     color: #47516B;
 }
