@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
 
+#wrapper {
+    justify-content: space-between;
+    display: inline-block;
+}
+
 #left-container {
-    position: relative;
+    max-width: 300px;
     float: left;
     padding: 24px;
     background-color: lightskyblue;
 }
 
 #right-container {
-    position: relative;
-    width: 70%;
     float: right;
+    width: 200px;
+    height: 100px;
     padding: 32px 24px 32px 16px;
     background-color: lightpink;
 }
@@ -31,7 +36,6 @@
 }
 
 .subtitle1 {
-
     font-family: 'DM Sans';
     font-weight: 400;
     letter-spacing: 0.01em;
