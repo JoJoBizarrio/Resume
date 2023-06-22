@@ -44,18 +44,19 @@
 }
 
 .subtitle1 {
-    
+    font-size: 12px;
     font-family: 'DM Sans';
     font-weight: 400;
     letter-spacing: 0.01em;
     color: #79819A;
+    line-height: 14px;
 }
 
 .subtitle2 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'DM Sans';
     font-weight: 500;
-    line-height: 9px;
+    line-height: 16px;
     color: #47516B;
 }
 
@@ -65,4 +66,3 @@
 }
 
 .table {}
-
