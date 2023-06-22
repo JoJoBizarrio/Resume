@@ -6,13 +6,11 @@
 }
 
 #left-container {
-    max-width: 40%;
     padding: 24px;
     background-color: lightskyblue;
 }
 
 #right-container {
-    max-width: 60%;
     padding: 32px 24px 32px 16px;
     background-color: lightpink;
 }
