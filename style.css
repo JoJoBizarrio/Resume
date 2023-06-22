@@ -6,6 +6,7 @@
 }
 
 #left-container {
+    max-width: 180px;
     padding: 24px;
     background-color: lightskyblue;
 }
