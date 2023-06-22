@@ -6,15 +6,13 @@
 }
 
 #left-container {
-    min-width: 30%;
     max-width: 40%;
     padding: 24px;
     background-color: lightskyblue;
 }
 
 #right-container {
-    min-width: 50%;
-    height: 100px;
+    max-width: 60%;
     padding: 32px 24px 32px 16px;
     background-color: lightpink;
 }
