@@ -22,7 +22,9 @@
     width: 48px;
     height: 48px;
     border-radius: 100px;
-    border: red;
+    background: lightyellow;
+    border-color: red;
+    margin-bottom: 8px;
 }
 
 .title {
@@ -32,6 +34,10 @@
     font-weight: 500;
     letter-spacing: -0.02em;
     color: #2E2E48;
+}
+
+.myName {
+    margin-bottom: 16px;
 }
 
 .text {
@@ -63,7 +69,12 @@
 .infoImg {
     width: 24px;
     height: 24px;
-    padding: 4px;
+    padding-right: 8px;
 }
 
 .table {}
+
+.row {
+    margin-bottom: 12px;
+    padding: 4px;
+}
