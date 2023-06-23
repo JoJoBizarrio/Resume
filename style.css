@@ -9,12 +9,12 @@
 }
 
 #left-container {
-    max-width:min-content;
+    max-width: min-content;
     padding: 24px;
     margin-right: 3%;
-background-image: url(images/Background.png);
-background-repeat: no-repeat;
-background-size: 100%;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
@@ -147,8 +147,12 @@ background-size: 100%;
 
 .line {
     margin-bottom: 16px;
-    color: #E2E6EE;
-    
+    opacity: 10%;
+    border-bottom-width: 0;
+}
+
+a {
+    color: var(--gray-lighter, #D9DFE8);
 }
 
 /*other details END*/
