@@ -38,12 +38,12 @@
 /* text stylies start*/
 
 .title {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Outfit';
-    line-height: 20px;
+    line-height: 24px;
     font-weight: 500;
-    letter-spacing: -0.02em;
-    color: var(--gray-lightest, #E2E6EE);
+    letter-spacing: -0.32px;
+    color: #E2E6EE;
 }
 
 .text {
@@ -51,8 +51,8 @@
     font-family: 'Outfit';
     font-weight: 500;
     font-style: normal;
-    letter-spacing: 0.02em;
-    color: var(--gray-lighter, #D9DFE8);
+    letter-spacing: 0.05em;
+    color: #D9DFE8;
     margin-bottom: 16px;
 }
 
@@ -61,8 +61,8 @@
     font-size: 12px;
     font-family: 'DM Sans';
     font-weight: 400;
-    letter-spacing: 0.01em;
-    color: var(--gray-light, #ACB1C3);
+    letter-spacing: 0.06em;
+    color: #ACB1C3;
     line-height: 14px;
 }
 
@@ -72,7 +72,7 @@
     font-family: 'DM Sans';
     font-weight: 500;
     line-height: 16px;
-    color: var(--gray-lighter, #D9DFE8);
+    color: #D9DFE8;
 }
 
 .textInsideTable {
