@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
 
+/* containers start*/
+
 #wrapper {
     padding: 10px;
     justify-content: space-between;
@@ -7,8 +9,9 @@
 }
 
 #left-container {
-    width: 220px;
+    min-width: 50%;
     padding: 24px;
+    margin-right: 3%;
     background-color: lightskyblue;
 }
 
@@ -17,15 +20,10 @@
     background-color: lightpink;
 }
 
-.avatar {
-    background-repeat: no-repeat;
-    width: 48px;
-    height: 48px;
-    border-radius: 100px;
-    background: lightyellow;
-    border-color: red;
-    margin-bottom: 8px;
-}
+/* containers END*/
+
+
+/* text stylies start*/
 
 .title {
     font-size: 16px;
@@ -47,9 +45,11 @@
     font-style: normal;
     letter-spacing: 0.02em;
     color: #47516B;
+    margin-bottom: 16px;
 }
 
 .subtitle1 {
+    margin-top: 0;
     font-size: 12px;
     font-family: 'DM Sans';
     font-weight: 400;
@@ -59,6 +59,7 @@
 }
 
 .subtitle2 {
+    margin-top: 0;
     font-size: 14px;
     font-family: 'DM Sans';
     font-weight: 500;
@@ -66,15 +67,71 @@
     color: #47516B;
 }
 
-.infoImg {
+.textInsideTable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    flex: 1 0 0;
+}
+
+/* text stylies END*/
+
+.line {
+    margin-bottom: 16px;
+}
+
+/* iamges */
+
+.avatar {
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background: rgb(231, 231, 107);
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+    margin-bottom: 8px;
+}
+
+.icon {
     width: 24px;
     height: 24px;
-    padding-right: 8px;
 }
 
-.table {}
+.flag {
+    width: 24px;
+    height: 18px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* iamges END*/
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 16px;
+}
 
 .row {
+    display: flex;
     margin-bottom: 12px;
-    padding: 4px;
+    gap: 8px;
+    align-items: center;
 }
+
+.info {
+    gap: 12px;
+}
+
+.socials {
+    gap: 10px
+}
+
+
+
+
