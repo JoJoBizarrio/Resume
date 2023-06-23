@@ -126,6 +126,10 @@
     align-items: center;
 }
 
+.row:last-child {
+    margin-bottom: 0;
+}
+
 .info {
     gap: 12px;
 }
