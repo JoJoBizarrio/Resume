@@ -101,9 +101,8 @@
     height: 24px;
 }
 
-.flag {
+.flagIcon {
     width: 24px;
-    height: 18px;
     border-radius: 2px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
 }
