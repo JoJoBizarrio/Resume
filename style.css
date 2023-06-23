@@ -109,6 +109,8 @@
 
 /* iamges END*/
 
+/* table*/
+
 .table {
     display: flex;
     flex-direction: column;
@@ -132,6 +134,4 @@
     gap: 10px
 }
 
-
-
-
+/*table END*/
