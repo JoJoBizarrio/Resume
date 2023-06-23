@@ -9,8 +9,7 @@
 }
 
 #left-container {
-    min-width: 50%;
-    max-width: 50%;
+    max-width:min-content;
     padding: 24px;
     margin-right: 3%;
     background-color: lightskyblue;
@@ -78,9 +77,6 @@
 
 /* text stylies END*/
 
-.line {
-    margin-bottom: 16px;
-}
 
 /* iamges */
 
@@ -135,3 +131,9 @@
 }
 
 /*table END*/
+
+/*other details*/
+.line {
+    margin-bottom: 16px;
+}
+/*other details END*/
