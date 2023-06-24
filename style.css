@@ -42,7 +42,7 @@
 .title {
     font-size: 20px;
     font-family: 'Outfit';
-    line-height: 24px;
+    line-height: 1.5rem;
     font-weight: 500;
     letter-spacing: -0.32px;
     color: #E2E6EE;
@@ -50,7 +50,7 @@
 }
 
 .text {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: 'Outfit';
     font-weight: 500;
     font-style: normal;
@@ -62,31 +62,27 @@
 
 .subtitle1 {
     margin-top: 0;
-    font-size: 12px;
+    font-size: 0.7rem;
+    line-height: 0.9rem; 
     font-family: 'DM Sans';
     font-weight: 400;
     letter-spacing: 0.06em;
     color: #ACB1C3;
-    line-height: 14px;
-    mix-blend-mode: difference;
 }
 
 .subtitle2 {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: 'DM Sans';
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1rem;
     color: #D9DFE8;
-    mix-blend-mode: difference;
 }
 
 .textInsideTable {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 2px;
-    flex: 1 0 0;
 }
 
 /* text stylies END*/
