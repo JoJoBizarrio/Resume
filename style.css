@@ -3,14 +3,14 @@
 /* containers start*/
 
 #wrapper {
-    padding: 10px;
+    padding: 0.5rem;
     justify-content: space-between;
     display: inline-flex;
 }
 
 #left-container {
     max-width: min-content;
-    padding: 24px;
+    padding: 1.5rem;
     margin-right: 3%;
     background-image: url(images/Background.png);
     background-repeat: no-repeat;
@@ -33,6 +33,8 @@
 
 /* containers END*/
 
+
+/*stylies for left-container */
 /* text stylies start*/
 
 .title {
@@ -95,19 +97,13 @@
     align-self: center;
     background-image: url(images/wightPhoto.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 12rem;
     height: 7.5rem;
-    border-radius: 0.2rem;
-    border-color: purple;
-    border-width: 0.1rem;
-    
-    border: none;
-
 }
 
 .icon {
-    width: 24px;
+    width: 1.5rem; 
 }
 
 .hobby {
@@ -169,3 +165,4 @@ a {
 }
 
 /*other details END*/
+/*stylies for left-container END*/
