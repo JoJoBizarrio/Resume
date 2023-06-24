@@ -4,24 +4,26 @@
 
 #wrapper {
     padding: 0.5rem;
-    justify-content: space-between;
     display: inline-flex;
 }
 
 #left-container {
     max-width: min-content;
     padding: 1.5rem;
-    margin-right: 3%;
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-#right-container {
-    padding: 32px 24px 32px 16px;
-    background-color: lightpink;
+#main {
+    padding: 2rem 1.5rem 2rem 1rem;
     display: flex;
+}
+
+#right-container {
+    background-color: lightgray;
     flex-direction: column;
+    align-items: center;
 }
 
 .mainHeader-wrapper {
@@ -29,12 +31,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
-    margin-bottom: 12px;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 /* containers END*/
-
 
 /*stylies for left-container */
 /* text stylies start*/
@@ -63,11 +64,12 @@
 .subtitle1 {
     margin-top: 0;
     font-size: 0.7rem;
-    line-height: 0.9rem; 
+    line-height: 0.9rem;
     font-family: 'DM Sans';
     font-weight: 400;
     letter-spacing: 0.06em;
     color: #ACB1C3;
+    mix-blend-mode: difference;
 }
 
 .subtitle2 {
@@ -77,12 +79,24 @@
     font-weight: 500;
     line-height: 1rem;
     color: #D9DFE8;
+    mix-blend-mode: difference;
 }
 
 .textInsideTable {
     display: flex;
     flex-direction: column;
     gap: 2px;
+}
+
+/*herli ono ne raboatet esli srazu reset a potom style. udalil iz reset h2*/
+h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* text stylies END*/
@@ -114,6 +128,13 @@
     width: 30px;
     border-radius: 4px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.educationIcon {
+    height: 2rem;
+    width: 2rem;
+    border: solid 0.1px;
+
 }
 
 /* iamges END*/
@@ -166,6 +187,49 @@ a {
 
 /*stilies for right-container/*
 /**/
+
+.list {
+    align-items: center;
+    padding-left: 1.5rem;
+    border: rgb(229, 41, 72) solid;
+}
+
+.itemList {
+    list-style-type: circle;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.cards {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    border: black solid
+}
+
+.card {
+    padding: 0.5rem 1.0rem;
+    background-color: #F7F9FC;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.headerCard {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.textCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+    align-self: stretch;
+}
 
 
 /*stilies for left-container END*/
