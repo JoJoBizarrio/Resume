@@ -64,6 +64,7 @@
     letter-spacing: 0.06em;
     color: #ACB1C3;
     line-height: 14px;
+    mix-blend-mode: difference;
 }
 
 .subtitle2 {
@@ -73,6 +74,7 @@
     font-weight: 500;
     line-height: 16px;
     color: #D9DFE8;
+    mix-blend-mode: difference;
 }
 
 .textInsideTable {
