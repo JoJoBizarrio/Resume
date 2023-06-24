@@ -15,7 +15,6 @@
     background-image: url(images/Background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-
 }
 
 #right-container {
@@ -33,7 +32,6 @@
 }
 
 /* containers END*/
-
 
 /* text stylies start*/
 
@@ -90,15 +88,20 @@
 
 /* iamges */
 
-.avatar {
+.avatar 
+{
+    align-self: center;
+    background-image: url(images/wightPhoto.jpg);
     background-repeat: no-repeat;
-    width: 48px;
-    height: 48px;
-    border-radius: 100px;
-    background: rgb(231, 231, 107);
-    border-width: 2px;
-    border-style: dashed;
-    border-color: red;
+    background-size: cover;
+    width: 12rem;
+    height: 7.5rem;
+    border-radius: 0.2rem;
+    border-color: purple;
+    border-width: 0.1rem;
+    
+    border: none;
+
 }
 
 .icon {
