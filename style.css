@@ -3,13 +3,12 @@
 /* containers start*/
 body {
     justify-content: center;
-    display: inline-block;
+    display: inline-flex;
 }
 
 #wrapper {
     padding: 0.5rem;
-    display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
 }
 
