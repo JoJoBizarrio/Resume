@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     flex-direction: column;
-    min-width: min-content;
+    width: min-content;
 }
 
 #main {
