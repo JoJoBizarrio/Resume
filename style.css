@@ -4,11 +4,11 @@
 
 #wrapper {
     padding: 0.5rem;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 #left-container {
-    max-width: min-content;
     padding: 1.5rem;
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
@@ -17,12 +17,11 @@
 
 #main {
     padding: 2rem 1.5rem 2rem 1rem;
-    display: flex;
 }
 
 #right-container {
+    display: flex;
     flex-direction: column;
-    background-color: white;
 }
 
 .mainHeader-wrapper {
@@ -199,7 +198,7 @@ a {
 }
 
 .cards {
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     border: black solid 0.5px;
 }
@@ -211,7 +210,7 @@ a {
 
 .education {
     align-self:center;
-    padding: 0.5rem 1.0rem;
+    padding: 0.5rem 3.0rem;
     width: 12rem;
 
 }
