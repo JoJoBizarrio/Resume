@@ -4,8 +4,8 @@
 
 #wrapper {
     padding: 0.5rem;
-    display: flex;
-    justify-content:center;
+    display: inline-flex;
+    justify-content: center;
     background-color: white;
 }
 
@@ -14,7 +14,7 @@
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    max-width: 30%;
+    flex-direction: column;
 }
 
 #main {
@@ -22,7 +22,7 @@
 }
 
 #right-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 
