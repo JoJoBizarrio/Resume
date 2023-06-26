@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     flex-direction: column;
-    max-width: ;
+    max-width: min-content;
 }
 
 #main {
