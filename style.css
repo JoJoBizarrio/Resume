@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
 
 /* containers start*/
+/*
 body {
     justify-content: center;
     align-items: center;
-    display: block;
+    display: inline-flex;
 }
+*/
 
 #wrapper {
     padding: 0.5rem;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     background-color: white;
 }
@@ -20,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     flex-direction: column;
-    max-width: min-content;
+    min-width: min-content;
 }
 
 #main {
