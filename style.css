@@ -21,7 +21,6 @@
 }
 
 #right-container {
-    background-color: lightgray;
     flex-direction: column;
 }
 
@@ -133,6 +132,10 @@ h2 {
     border-color: rgb(138, 138, 138);
 }
 
+.skillsIcon {
+    width: 2.5rem;
+}
+
 /* iamges END*/
 
 /* table*/
@@ -208,6 +211,24 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+}
+
+.cardSkills {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCardSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.06rem;
+    width: 9rem;
 }
 
 .headerCard {
