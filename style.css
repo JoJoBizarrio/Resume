@@ -193,27 +193,27 @@ a {
 }
 
 .itemList {
-    list-style-type: circle;
-    padding-left: 1rem;
-    padding-bottom: 1.5rem;
+    list-style-type: disc;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
 }
 
 .cards {
-    display: flex;
-    align-self: stretch;
     justify-content: space-between;
+    display: flex;
     border: black solid 0.5px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 14rem;
 }
 
 .education {
+    align-self:center;
     padding: 0.5rem 1.0rem;
+    width: 12rem;
+
 }
 
 .skills {
