@@ -2,13 +2,15 @@
 
 /* containers start*/
 body {
+    justify-content: center;
     align-items: center;
-    display: inline-flex;
+    display: inline-block;
 }
 
 #wrapper {
     padding: 0.5rem;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     background-color: white;
 }
 
