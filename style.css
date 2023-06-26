@@ -199,29 +199,30 @@ a {
 }
 
 .cards {
-    display: inline-flex;
-    gap: 0.5rem;
+    display: flex;
     align-self: stretch;
+    justify-content: space-between;
     border: black solid 0.5px;
 }
 
 .card {
-    padding: 0.5rem 1.0rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    justify-content: space-between;
     width: 14rem;
 }
 
-.cardSkills {
-    display: flex;
-    flex-direction: column;
+.education {
+    padding: 0.5rem 1.0rem;
+}
+
+.skills {
     padding: 0.5rem;
     gap: 0.25rem;
     justify-content: center;
     align-items: center;
-    
 }
+
 
 .textCardSkills {
     display: flex;
@@ -237,6 +238,7 @@ a {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 .textCard {
