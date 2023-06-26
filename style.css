@@ -220,6 +220,7 @@ a {
     gap: 0.25rem;
     justify-content: center;
     align-items: center;
+    
 }
 
 .textCardSkills {
@@ -229,6 +230,7 @@ a {
     align-items: center;
     gap: 0.06rem;
     width: 9rem;
+    text-align: center;
 }
 
 .headerCard {
