@@ -3,6 +3,7 @@
 /* containers start*/
 body {
     justify-content: center;
+    display: inline-flex;
 }
 
 #wrapper {
