@@ -87,7 +87,7 @@ body {
 .subtitleText {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 0.125rem;
 }
 
 /*herli ono ne raboatet esli srazu reset a potom style. udalil iz reset h2*/
@@ -138,6 +138,12 @@ h2 {
     width: 2.5rem;
 }
 
+.projectIcon {
+    width: 1rem;
+    background-color: #E1E7FE;
+    border-radius: 10rem;
+}
+
 /* iamges END*/
 
 /* table*/
@@ -154,6 +160,7 @@ table:last-child {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    align-self: stretch;
 }
 
 .row-infos {
@@ -189,45 +196,47 @@ a {
 /*stilies for right-container START*/
 
 .list {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
     border: rgb(229, 41, 72) solid 1px;
     list-style-type: disc;
 }
 
 .itemList {
-    padding-left: 1.3rem;
+    padding-left: 1.2rem;
     padding-bottom: 3rem;
 }
 
 .itemList::marker {
     color: #5531A7;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .cards {
     justify-content: space-around;
     display: flex;
-    border: black solid 0.5px;
+    border: rgba(201, 51, 227, 0.813) solid 3px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.education {
-    align-self: center;
+.card-education {
     width: 12rem;
 }
 
-.skills {
+.card-skills {
     padding: 0.5rem;
     gap: 0.25rem;
-    justify-content: center;
-    align-items: center;
 }
 
-.latestProject {}
+.card-project {
+    gap: 0.5rem;
+    padding: 0.75rem;
+}
 
 .textCardSkills {
     display: flex;
@@ -247,8 +256,6 @@ a {
 .textCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     gap: 1px;
     align-self: stretch;
 }
