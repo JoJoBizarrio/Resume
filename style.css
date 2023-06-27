@@ -9,7 +9,6 @@ body {
     background-color: lightslategray;
 }
 
-
 #wrapper {
     justify-content: center;
     padding: 0.5rem;
@@ -28,8 +27,7 @@ body {
 
 #right-container {
     padding: 2rem 1.5rem 2rem 1rem;
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
 }
 
 .mainHeader-wrapper {
@@ -110,7 +108,7 @@ h2 {
 
 .avatar {
     align-self: center;
-    background-image: url(images/wideAvatar.jpg);
+    background-image: url(images/wideAvatar.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 12rem;
@@ -196,15 +194,19 @@ a {
 /*stilies for right-container START*/
 
 .list {
-    align-items: center;
     padding-left: 1.5rem;
-    border: rgb(229, 41, 72) solid;
+    border: rgb(229, 41, 72) solid 1px;
+    list-style-type: disc;
 }
 
 .itemList {
-    list-style-type: disc;
-    padding-left: 2rem;
+    padding-left: 1.3rem;
     padding-bottom: 3rem;
+}
+
+.itemList::marker {
+    color: #5531A7;
+    font-size: 1.5rem;
 }
 
 .cards {
@@ -221,7 +223,6 @@ a {
 .education {
     align-self:center;
     width: 12rem;
-
 }
 
 .skills {
