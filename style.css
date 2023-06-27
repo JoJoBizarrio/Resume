@@ -13,7 +13,7 @@ body {
     justify-content: center;
     padding: 0.5rem;
     display: inline-flex;
-    background-color:  lightgrey;
+    background-color: lightgrey;
     max-width: min-content;
 }
 
@@ -103,7 +103,6 @@ h2 {
 
 /* text stylies END*/
 
-
 /* iamges */
 
 .avatar {
@@ -145,33 +144,29 @@ h2 {
 /* table*/
 
 .table {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 table:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .row {
     display: flex;
-    margin-bottom: 12px;
-    gap: 8px;
+    gap: 0.5rem;
     align-items: center;
 }
 
-.row:last-child {
-    margin-bottom: 0;
+.row-infos {
+    margin-bottom: 0.75rem;
 }
 
-.info {
-    gap: 12px;
+.row-socialsAndLang {
+    margin-bottom: 0.625rem;
 }
 
-.socials {
-    gap: 10px
+.row-interests {
+    margin-bottom: 0.5rem;
 }
 
 /*table END*/
@@ -179,13 +174,14 @@ table:last-child {
 /*other details*/
 
 .line {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     opacity: 40%;
     border-bottom-width: 0;
 }
 
 a {
-    color: var(--gray-lighter, #D9DFE8);
+    color: #D9DFE8;
+    mix-blend-mode: difference;
 }
 
 /*other details END*/
@@ -221,7 +217,7 @@ a {
 }
 
 .education {
-    align-self:center;
+    align-self: center;
     width: 12rem;
 }
 
@@ -232,16 +228,11 @@ a {
     align-items: center;
 }
 
-.latestProject {
-
-}
-
+.latestProject {}
 
 .textCardSkills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 0.06rem;
     width: 9rem;
     text-align: center;
@@ -262,6 +253,5 @@ a {
     gap: 1px;
     align-self: stretch;
 }
-
 
 /*stilies for left-container END*/
