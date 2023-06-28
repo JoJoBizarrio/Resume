@@ -135,11 +135,11 @@ h2 {
 }
 
 .skillsIcon {
-    width: 2.5rem;
+    width: 3.2rem;
 }
 
 .projectIcon {
-    width: 1rem;
+    width: 1.2rem;
     background-color: #E1E7FE;
     border-radius: 10rem;
 }
@@ -236,6 +236,7 @@ a {
 .card-project {
     gap: 0.5rem;
     padding: 0.75rem;
+    max-width: 15rem;
 }
 
 .textCardSkills {
