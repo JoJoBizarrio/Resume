@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: start;
     display: flex;
+    background-color: white;
 }
 
 #wrapper {
