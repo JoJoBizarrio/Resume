@@ -18,6 +18,7 @@ body {
 }
 
 #left-container {
+    display: none;
     padding: 1.5rem;
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
@@ -209,6 +210,13 @@ a {
 .itemList::marker {
     color: #5531A7;
     font-size: 1.8rem;
+}
+
+.skillsWrapper {
+    flex-direction: column;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-self: stretch;
 }
 
 .cards {
