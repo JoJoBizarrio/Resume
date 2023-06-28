@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: start;
     display: flex;
-    background-color: lightslategray;
+    background-color: white;
 }
 
 #wrapper {
@@ -198,8 +198,7 @@ a {
 /*stilies for right-container START*/
 
 .list {
-    padding-left: 2rem;
-    border: rgb(229, 41, 72) solid 1px;
+    padding-left: 2.5rem;
     list-style-type: disc;
 }
 
@@ -218,14 +217,11 @@ a {
     display: flex;
     gap: 0.5rem;
     align-self: stretch;
-    border: solid red 1px;
 }
 
 .cards {
     display: flex;
     justify-content: space-evenly;
-    
-    border: rgba(201, 51, 227, 0.813) solid 1px;
 }
 
 .card {
@@ -236,7 +232,7 @@ a {
 }
 
 .card-education {
-    padding: 0.7rem 1.0rem;
+    padding: 0.5rem 1.2rem;
     min-width: 12rem;
     gap: 0.25rem;
 }
