@@ -14,7 +14,7 @@ body {
     padding: 0.5rem;
     display: inline-flex;
     background-color: rgb(255, 255, 255);
-    max-width: min-content;
+    width: 70rem;
 }
 
 #left-container {
@@ -23,6 +23,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     flex-direction: column;
+    min-width: min-content;
+    max-width: 20%;
 }
 
 #right-container {
