@@ -214,15 +214,17 @@ a {
 
 .skillsWrapper {
     flex-direction: column;
-    display: inline-flex;
+    display: flex;
     gap: 0.5rem;
     align-self: stretch;
+    border: solid red 1px;
 }
 
 .cards {
-    justify-content: space-around;
     display: flex;
-    border: rgba(201, 51, 227, 0.813) solid 3px;
+    justify-content: space-evenly;
+    
+    border: rgba(201, 51, 227, 0.813) solid 1px;
 }
 
 .card {
@@ -233,7 +235,8 @@ a {
 }
 
 .card-education {
-    width: 12rem;
+    padding: 1rem 2rem;
+    min-width: 12rem;
 }
 
 .card-skills {
