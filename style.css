@@ -283,7 +283,6 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
-    border: #516CF7 1px solid;
     gap: 0.625rem;
 }
 
@@ -291,7 +290,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: #def751 1px solid;
 }
 
 .card-education {
