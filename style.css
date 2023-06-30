@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
 
+:root {
+    --gray-lightest: #E2E6EE;
+    --gray-lighter: #D9DFE8;
+    --gray-light: #ACB1C3;
+    --gray-lighter: #D9DFE8;
+}
+
 /* containers start*/
 
 body {
@@ -22,6 +29,7 @@ body {
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
     flex-direction: column;
     min-width: min-content;
     max-width: 20%;
@@ -40,10 +48,66 @@ body {
     margin-bottom: 0.75rem;
 }
 
+.qoutes-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.qoutes-wrapper-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 /* containers END*/
 
 /*stylies for left-container */
 /* text stylies start*/
+
+/*style of text for left-container*/
+/*For NAME*/
+.heading-1-bold {
+    color: var(--gray-lightest);
+    font-size: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.16px;
+}
+
+/*For quote*/
+.heading-3-bold {
+    color: var(--gray-lighter);
+    font-size: 14px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}
+
+.caption-1 {
+    color: var(--gray-light);
+    font-size: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.06px;
+}
+
+.body-2-bold {
+    color: var(--gray-lighter);
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+
 
 .title {
     font-size: 20px;
@@ -108,16 +172,20 @@ h2 {
 /* iamges */
 
 .avatar {
-    align-self: center;
+    align-items: center;
     background-image: url(images/wideAvatar.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 12rem;
-    height: 7.5rem;
+    height: 100%;
+    min-height: 8.3rem;
 }
 
 .icon {
-    width: 1.7rem;
+    width: 1.75rem;
+}
+
+.iconQoute {
+    height: 1.25rem;
 }
 
 .hobbyIcon {
@@ -185,11 +253,6 @@ table:last-child {
     margin-bottom: 1rem;
     opacity: 40%;
     border-bottom-width: 0;
-}
-
-a {
-    color: #D9DFE8;
-    mix-blend-mode: difference;
 }
 
 /*other details END*/
