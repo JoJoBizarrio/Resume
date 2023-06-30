@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500;600&display=swap');
 
 :root {
     --gray-lightest: #E2E6EE;
@@ -7,6 +7,7 @@
     --gray-lighter: #D9DFE8;
     --gray-darker: #2E2E48;
     --gray-default: #79819A;
+    --secondary-default: #516CF7;
 }
 
 /* containers start*/
@@ -31,7 +32,7 @@ body {
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    display: none;
+    display: flex;
     flex-direction: column;
     min-width: min-content;
     max-width: 20%;
@@ -78,16 +79,15 @@ body {
 
 .heading-1-bold {
     color: var(--gray-lightest);
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 24px;
     letter-spacing: -0.16px;
 }
 
 .heading-2-bold {
     color: var(--gray-darker, #2E2E48);
-    text-align: center;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 20px;
+    line-height: 22px;
     letter-spacing: 0.24px;
 }
 
@@ -97,6 +97,15 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.4px;
+}
+
+/*For ref of repos*/
+.heading-4-bold {
+    color: var(--secondary-default, #667ef1);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
 }
 
 .body {
@@ -112,20 +121,26 @@ body {
     letter-spacing: 0.16px;
 }
 
+.body-caption-1-bold {
+    color: var(--gray-darker, #2E2E48);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
 .body-caption-2 {
     color: var(--gray-default, #79819A);
-    text-align: center;
     font-size: 10px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.10px;
 }
 
-.body-caption-1-bold {
+.body-1-bold {
     color: var(--gray-darker, #2E2E48);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 18px;
 }
 
 .body-2-bold {
@@ -135,9 +150,12 @@ body {
     line-height: 16px;
 }
 
-/*herli ono ne raboatet esli srazu reset a potom style. udalil iz reset h2*/
-h2 {
-    margin-bottom: rem;
+.body-2 {
+    color: var(--gray-default, #79819A);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.14px;
 }
 
 /* text stylies END*/
@@ -150,7 +168,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
-    min-height: 8.3rem;
+    min-height: 8.1rem;
 }
 
 .icon {
@@ -246,6 +264,7 @@ h2 {
 .itemList {
     padding-left: 1.2rem;
     padding-bottom: 3rem;
+    gap: 1.5rem;
 }
 
 .itemList::marker {
@@ -261,6 +280,7 @@ h2 {
 }
 
 .cards {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
 }
