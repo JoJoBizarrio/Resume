@@ -283,24 +283,28 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
+    border: #516CF7 1px solid;
+    gap: 0.625rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    border: #def751 1px solid;
 }
 
 .card-education {
     padding: 0.5rem 1.2rem;
-    max-width: 12rem;
     gap: 0.25rem;
+    align-items: flex-start;
+    width: 33%;
 }
 
 .card-skills {
     padding: 0.5rem;
     gap: 0.25rem;
+    align-items: center;
 }
 
 .card-project {
@@ -319,10 +323,9 @@ body {
 }
 
 .headerCard {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.7rem;
-    margin-bottom: 0.4rem;
+    gap: 0.6rem;
 }
 
 .textCard {
