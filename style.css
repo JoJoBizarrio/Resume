@@ -16,9 +16,9 @@
 /* containers start*/
 
 body {
-    justify-content: center;
+    display: inline-flex;
+    justify-items: center;
     align-items: start;
-    display: flex;
     background-color: white;
 }
 
