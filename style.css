@@ -14,7 +14,6 @@
 }
 
 /* containers start*/
-
 body {
     display: flex;
     justify-content: center;
@@ -55,6 +54,16 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.wrapper-qoutes {
+    gap: 4px;
+}
+
+.wrapper-qoutes-text {
+    flex-direction: column;
+    gap: 4px;
+}
+
+
 #wrapper {
     display: flex;
     padding: 0.5rem;
@@ -88,8 +97,7 @@ body {
 }
 
 .qoutes-wrapper {
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
     gap: 4px;
 }
 
