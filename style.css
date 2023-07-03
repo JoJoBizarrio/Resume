@@ -16,17 +16,15 @@
 /* containers start*/
 
 body {
-    display: inline-flex;
+    display: flex;
     justify-items: center;
-    align-items: start;
-    background-color: white;
 }
 
 #wrapper {
+    display: flex;
     justify-content: center;
     padding: 0.5rem;
-    display: inline-flex;
-    background-color: rgb(255, 255, 255);
+    align-items: start;
     width: 70rem;
 }
 
@@ -35,6 +33,7 @@ body {
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     min-width: min-content;
@@ -51,7 +50,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .qoutes-wrapper {
