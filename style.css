@@ -16,9 +16,9 @@
 /* containers start*/
 
 body {
-    justify-content: center;
+    display: inline-flex;
+    justify-items: center;
     align-items: start;
-    display: flex;
     background-color: white;
 }
 
@@ -38,13 +38,12 @@ body {
     display: flex;
     flex-direction: column;
     min-width: min-content;
-    max-width: 20%;
+    max-width: 21.5%;
     gap: 1rem;
 }
 
 #right-container {
-    padding: 2rem 1.5rem 2rem 1rem;
-    display: flex;
+    padding: 2rem 0rem 2rem 1rem;
 }
 
 .mainHeader-wrapper {
