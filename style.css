@@ -17,13 +17,46 @@
 
 body {
     display: flex;
-    justify-items: center;
-    justify-self: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper-general {
+    padding: 0.5rem;
+    align-items: start;
+    width: 70rem;
+}
+
+.wrapper-left {
+    padding: 1.5rem;
+    background-image: url(images/Background1x.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    min-width: min-content;
+    max-width: 21.5%;
+    gap: 1rem;
+}
+
+.wrapper-right {
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-avatar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #wrapper {
     display: flex;
-    justify-content: center;
     padding: 0.5rem;
     align-items: start;
     width: 70rem;
@@ -300,7 +333,7 @@ body {
     flex-direction: column;
     justify-content: center;
     border-radius: 8px;
-    background-color: var(--gray-lightest-3, #eff6ff) ;
+    background-color: var(--gray-lightest-3, #eff6ff);
 }
 
 .card-education {
