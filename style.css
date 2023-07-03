@@ -3,9 +3,12 @@
 :root {
     --gray-lightest: #E2E6EE;
     --gray-lighter: #D9DFE8;
+    --gray-lightest-2: #dfecff;
+    --gray-lightest-3: #eff6ff;
     --gray-light: #ACB1C3;
     --gray-lighter: #D9DFE8;
     --gray-darker: #2E2E48;
+    --gray-darker-2: #4a4a68;
     --gray-default: #79819A;
     --secondary-default: #516CF7;
 }
@@ -263,13 +266,20 @@ body {
 
 .itemList {
     padding-left: 1.2rem;
-    padding-bottom: 3rem;
-    gap: 1.5rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--gray-lightest-2, #F7F9FC);
 }
 
 .itemList::marker {
     color: #5531A7;
     font-size: 1.8rem;
+}
+
+.itemList:last-child {
+    margin-bottom: 0;
 }
 
 .skillsWrapper {
@@ -290,6 +300,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 8px;
+    background-color: var(--gray-lightest-3, #eff6ff) ;
 }
 
 .card-education {
