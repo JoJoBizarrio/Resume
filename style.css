@@ -37,7 +37,6 @@ body {
     background-size: 100%;
     border-radius: 0.5rem;
     flex-direction: column;
-    min-width: 23%;
     max-width: 24.0%;
     gap: 1rem;
 }
@@ -310,7 +309,7 @@ body {
 .card-skills {
     padding: 0.5rem;
     gap: 0.25rem;
-    align-items: center; 
+    align-items: center;
     width: 20%;
 }
 
@@ -355,12 +354,26 @@ body {
     .card-education {
         width: auto;
     }
-    
+
     .card-skills {
         width: auto;
     }
-    
+
     .card-project {
         width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper-general {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .wrapper-left {
+        width: auto;
+        max-width: 280px;
     }
 }
