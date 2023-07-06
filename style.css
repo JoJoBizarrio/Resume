@@ -303,27 +303,27 @@ body {
 .card-education {
     padding: 0.5rem 1.2rem;
     gap: 0.25rem;
-    max-width: 170px;
+    width: 30%;
 }
 
 .card-skills {
     padding: 0.5rem;
     gap: 0.25rem;
-    align-items: center;
+    align-items: center; 
+    width: 20%;
 }
 
 .card-project {
     gap: 0.7rem;
     padding: 0.75rem;
-    max-width: 15rem;
     align-items: flex-start;
+    width: 40%;
 }
 
 .textCardSkills {
     display: flex;
     flex-direction: column;
     gap: 0.06rem;
-    width: 9rem;
     text-align: center;
 }
 
@@ -351,7 +351,15 @@ body {
         flex-direction: column;
     }
 
-    .card {
-        max-width: none;
+    .card-education {
+        width: auto;
+    }
+    
+    .card-skills {
+        width: auto;
+    }
+    
+    .card-project {
+        width: auto;
     }
 }
