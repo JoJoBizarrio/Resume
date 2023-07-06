@@ -89,6 +89,7 @@ body {
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 0.24px;
+    padding-bottom: 16px;
 }
 
 /*For quote*/
@@ -285,8 +286,11 @@ body {
     align-self: stretch;
 }
 
+.skillsWrapper:last-child {
+    padding-top: 0;
+}
+
 .cards {
-    margin-top: 1.5rem;
     display: flex;
     justify-content: space-evenly;
     gap: 0.625rem;
@@ -375,5 +379,18 @@ body {
     .wrapper-left {
         width: auto;
         max-width: 280px;
+    }
+
+    .list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .itemList {
+        padding-top: 0.7rem;
+    }
+
+    .skillsWrapper {
+        gap: 0.625rem;
     }
 }
