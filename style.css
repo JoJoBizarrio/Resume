@@ -25,33 +25,31 @@ body {
 }
 
 .wrapper-general {
-    padding: 0.5rem;
+    padding: 8px;
     align-items: start;
-    width: 70rem;
+    max-width: 1100px;
 }
 
 .wrapper-left {
-    padding: 1.5rem;
+    padding: 24px;
     background-image: url(images/Background1x.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     flex-direction: column;
     max-width: 24.0%;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .wrapper-right {
     justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .wrapper-avatar {
     flex-direction: column;
     justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    gap: 8px;
+    margin-bottom: 8px;
 }
 
 .wrapper-qoutes {
@@ -168,41 +166,41 @@ body {
     background-image: url(images/wideAvatar.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 9.5rem;
+    min-height: 150px;
 }
 
 .icon {
-    width: 1.75rem;
+    width: 28px;
 }
 
 .iconQoute {
-    height: 1.1rem;
+    height: 18px;
 }
 
 .hobbyIcon {
     background-color: #e9ecf0;
-    padding: 0.125rem;
+    padding: 2px;
     border-radius: 7px;
     border: 0px;
 }
 
 .flagIcon {
-    width: 1.875rem;
-    border-radius: 0.25rem;
+    width: 30px;
+    border-radius: 4px;
 }
 
 .educationIcon {
-    height: 4rem;
+    height: 64px;
 }
 
 .skillsIcon {
-    width: 3.2rem;
+    width: 52px;
 }
 
 .projectIcon {
-    width: 1.2rem;
+    width: 18px;
     background-color: #E1E7FE;
-    border-radius: 10rem;
+    border-radius: 100px;
 }
 
 /* iamges END*/
@@ -215,28 +213,28 @@ body {
 }
 
 .table-infos {
-    gap: 0.75rem;
+    gap: 12px;
 }
 
 .table-socials,
 .table-languages {
-    gap: 0.625rem;
+    gap: 10px;
 }
 
 .table-hobby {
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 .row {
     display: flex;
-    gap: 0.5rem;
+    gap: 8px;
     align-items: center;
 }
 
 .row-text-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 0.125rem;
+    gap: 2px;
 }
 
 /*table END*/
@@ -257,22 +255,22 @@ body {
 /*stilies for right-container START*/
 
 .list {
-    padding-left: 2.5rem;
+    padding-left: 40px;
     list-style-type: disc;
 }
 
 .itemList {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
     background-color: var(--gray-lightest-2, #F7F9FC);
 }
 
 .itemList::marker {
     color: #5531A7;
-    font-size: 1.8rem;
+    font-size: 28px;
 }
 
 .itemList:last-child {
@@ -282,7 +280,7 @@ body {
 .skillsWrapper {
     flex-direction: column;
     display: flex;
-    gap: 0.5rem;
+    gap: 10px;
     align-self: stretch;
 }
 
@@ -293,7 +291,7 @@ body {
 .cards {
     display: flex;
     justify-content: space-evenly;
-    gap: 0.625rem;
+    gap: 12px;
 }
 
 .card {
@@ -305,21 +303,21 @@ body {
 }
 
 .card-education {
-    padding: 0.5rem 1.2rem;
-    gap: 0.25rem;
+    padding: 8px 20px;
+    gap: 4px;
     width: 30%;
 }
 
 .card-skills {
-    padding: 0.5rem;
-    gap: 0.25rem;
+    padding: 8px;
+    gap: 4px;
     align-items: center;
     width: 20%;
 }
 
 .card-project {
-    gap: 0.7rem;
-    padding: 0.75rem;
+    gap: 12px;
+    padding: 12px;
     align-items: flex-start;
     width: 40%;
 }
@@ -327,14 +325,14 @@ body {
 .textCardSkills {
     display: flex;
     flex-direction: column;
-    gap: 0.06rem;
+    gap: 2px;
     text-align: center;
 }
 
 .headerCard {
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 10px;
 }
 
 .textCard {
@@ -387,10 +385,10 @@ body {
     }
 
     .itemList {
-        padding-top: 0.7rem;
+        padding-top: 12px;
     }
 
     .skillsWrapper {
-        gap: 0.625rem;
+        gap: 10px;
     }
 }
